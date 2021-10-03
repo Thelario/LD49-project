@@ -5835,7 +5835,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Unstable Volcano
+  m_Text: Volcano's Scapist
 --- !u!222 &803724697
 CanvasRenderer:
   m_ObjectHideFlags: 0
