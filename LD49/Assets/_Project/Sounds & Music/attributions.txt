@@ -1,0 +1,4 @@
+laval-loop: Audionautics, https://freesound.org/people/Audionautics/
+walk-sound: markagames, https://freesound.org/people/markagames/
+jump-sound: kfatehi, https://freesound.org/people/kfatehi/
+rock-hit-sound: magnuswaker, https://freesound.org/people/magnuswaker/
