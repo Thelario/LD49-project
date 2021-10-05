@@ -96,5 +96,8 @@ public enum SoundType
     PlayerJump,
     MouseOverButton,
     ButtonClick,
-    Coin
+    Coin,
+    PowerUp,
+    RockSmash,
+    PlayerDead
 }

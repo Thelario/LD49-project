@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e11f7a92bbdab84ea8ff0ec21666fdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceToBeDestroyed: 12
+  distanceToBeDestroyed: 20
 --- !u!1001 &7076261063574212737
 PrefabInstance:
   m_ObjectHideFlags: 0

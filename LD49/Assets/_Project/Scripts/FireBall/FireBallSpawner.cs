@@ -7,6 +7,7 @@ public class FireBallSpawner : MonoBehaviour
     public GameObject fireBall;
     public float timeBetween;
     float timeValue;
+    public float timeBeforeSpawning;
     void Start()
     {
         timeValue = timeBetween;
@@ -15,14 +16,21 @@ public class FireBallSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timeValue <= 0)
+        if (timeBeforeSpawning < 0)
         {
-            Instantiate(fireBall, transform.position, transform.rotation);
-            timeValue = timeBetween;
+            if (timeValue <= 0)
+            {
+                Instantiate(fireBall, transform.position, transform.rotation);
+                timeValue = timeBetween;
+            }
+            else
+            {
+                timeValue -= Time.deltaTime;
+            }
         }
         else
         {
-            timeValue -= Time.deltaTime;
+            timeBeforeSpawning -= Time.deltaTime;
         }
     }
 }

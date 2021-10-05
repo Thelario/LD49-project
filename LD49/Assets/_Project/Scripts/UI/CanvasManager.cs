@@ -9,7 +9,8 @@ public enum CanvasType
     DifficultyPanel,
     OptionsMenu,
     InGameMenu,
-    PauseGameMenu
+    PauseGameMenu,
+    DeadGameMenu
 }
 
 /// This is the class that will control the child objects and allow us to open and close each child

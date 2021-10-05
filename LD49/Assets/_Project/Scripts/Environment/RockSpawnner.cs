@@ -19,8 +19,9 @@ public class RockSpawnner : MonoBehaviour
         um = UpwardMovement.Instance;
     }
 
-    void Start()
+    private IEnumerator Start()
     {
+        yield return new WaitForSeconds(6f);
         StartCoroutine(SpawnRock());
     }
 

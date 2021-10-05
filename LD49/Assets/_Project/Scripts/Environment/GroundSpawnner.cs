@@ -6,6 +6,7 @@ public class GroundSpawnner : MonoBehaviour
     [Header("Prefabs")]
     [SerializeField] private GameObject[] groundPrefabs;
     [SerializeField] private GameObject coinPrefab;
+    [SerializeField] private GameObject umbrPrefab;
 
     [Header("Fields")]
     [SerializeField] private Vector2[] possibleSpawnPositions;
@@ -32,7 +33,14 @@ public class GroundSpawnner : MonoBehaviour
         GameObject ground = Instantiate(GetRandomGroundPrefab(), um.transform.position + GetRandomSpawnPos(), Quaternion.identity, this.transform);
 
         // Chance to spawn a coin as well
-        Instantiate(coinPrefab, ground.transform.position + coinOffset, Quaternion.identity, this.transform);
+        int rnd = Random.Range(0, 100);
+        if (rnd > 25) 
+            Instantiate(coinPrefab, ground.transform.position + coinOffset, Quaternion.identity, this.transform);
+        else if(rnd > 22)
+        { 
+           Instantiate(umbrPrefab, ground.transform.position + coinOffset, Quaternion.identity, this.transform);
+        }
+
 
         float time = GetTimeFromDifficulty();
 

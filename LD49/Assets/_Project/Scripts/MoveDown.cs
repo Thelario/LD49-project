@@ -22,7 +22,7 @@ public class MoveDown : MonoBehaviour
         {
             Difficulty.Easy => ySpeed * 1f,
             Difficulty.Normal => ySpeed * 1.75f,
-            Difficulty.Difficult => ySpeed * 2.5f,
+            Difficulty.Difficult => ySpeed * 3f,
             _ => 1f,
         };
     }
