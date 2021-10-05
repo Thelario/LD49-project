@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class StartEffect : MonoBehaviour
 {
-
     [SerializeField] private Transform upwardMovementParent;
-   
+
     public float valueOfShake;
 
     /*
@@ -26,8 +25,8 @@ public class StartEffect : MonoBehaviour
         float rndX = Random.Range(-valueOfShake, valueOfShake);
         float rndY = Random.Range(-valueOfShake, valueOfShake);
 
-        if (upwardMovementParent.position.x - (transform.position.x + rndX) > 0.1f ||
-            upwardMovementParent.position.y - (transform.position.y + rndY) > 0.1f)
+        if (Mathf.Abs(upwardMovementParent.position.x - (transform.position.x + rndX)) > 0.1f ||
+            Mathf.Abs(upwardMovementParent.position.y - (transform.position.y + rndY)) > 0.1f)
             return;
 
         transform.position += new Vector3(rndX, rndY, 0);
@@ -37,6 +36,7 @@ public class StartEffect : MonoBehaviour
     {
         StartCoroutine(explosionShakeC());
     }
+
     IEnumerator explosionShakeC()
     {
         valueOfShake = 0.04f;
@@ -44,4 +44,3 @@ public class StartEffect : MonoBehaviour
         valueOfShake = 0.02f;
     }
 }
-
