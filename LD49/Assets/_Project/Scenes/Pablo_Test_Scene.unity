@@ -1795,7 +1795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &343739127
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2189,7 +2189,7 @@ MonoBehaviour:
       - m_Target: {fileID: 388852636}
         m_TargetAssemblyTypeName: OptionsSlider, Assembly-CSharp
         m_MethodName: UpdateVolume
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2211,7 +2211,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vt: 0
-  slider: {fileID: 388852635}
 --- !u!1 &412861375
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,7 +3293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -4.2099767}
+  m_AnchoredPosition: {x: 0, y: -4.2099915}
   m_SizeDelta: {x: 0, y: 8.420048}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &491254547
@@ -3534,7 +3533,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &523202978
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3644,10 +3643,10 @@ RectTransform:
   m_Father: {fileID: 176615034}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 205.985, y: -245.04999}
+  m_SizeDelta: {x: 411.97, y: 130.03333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &534276245
 MonoBehaviour:
@@ -4859,10 +4858,10 @@ RectTransform:
   m_Father: {fileID: 176615034}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 205.985, y: -65.01666}
+  m_SizeDelta: {x: 411.97, y: 130.03333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &656722223
 MonoBehaviour:
@@ -5649,7 +5648,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &726855765
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7315,10 +7314,10 @@ RectTransform:
   m_Father: {fileID: 176615034}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 205.985, y: -425.0833}
+  m_SizeDelta: {x: 411.97, y: 130.03333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841105699
 MonoBehaviour:
@@ -8195,7 +8194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &960855748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8492,7 +8491,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &987147008
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9601,7 +9600,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.5125732, y: 52.299988}
+  m_AnchoredPosition: {x: -2.5117188, y: 52.30078}
   m_SizeDelta: {x: -1620, y: -657.80005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1165261111
@@ -14984,11 +14983,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -15386,7 +15385,7 @@ MonoBehaviour:
       - m_Target: {fileID: 2043844483}
         m_TargetAssemblyTypeName: OptionsSlider, Assembly-CSharp
         m_MethodName: UpdateVolume
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -15408,7 +15407,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vt: 1
-  slider: {fileID: 2043844482}
 --- !u!1001 &2044101507
 PrefabInstance:
   m_ObjectHideFlags: 0

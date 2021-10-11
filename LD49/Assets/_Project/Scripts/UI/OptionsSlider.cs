@@ -12,10 +12,9 @@ public enum VolumeType
 public class OptionsSlider : MonoBehaviour
 {
     public VolumeType vt;
-    public Slider slider;
 
-    public void UpdateVolume()
+    public void UpdateVolume(float value)
     {
-        GameManager.Instance.UpdateVolume(vt, slider.value); 
+        GameManager.Instance.UpdateVolume(vt, value); 
     }
 }

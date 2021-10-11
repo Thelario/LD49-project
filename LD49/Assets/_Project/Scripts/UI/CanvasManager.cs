@@ -22,9 +22,8 @@ public class CanvasManager : Singleton<CanvasManager>
     protected void Awake()
     {
         //base.Awake();
-
-        // For this to work, all menus in the game need to be active in the begginning. Make sure tu TURN ON THE MENUS.
-        canvasControllerList = GetComponentsInChildren<CanvasController>().ToList();
+        
+        canvasControllerList = GetComponentsInChildren<CanvasController>(true).ToList();
         // The operation of transforming an array into a list using linq, as in the previous line of code, is a huge
         // costly operation, but as we are only going to do it once at the beginning of the game and for tiny operations
         // like this is not that horrible to do it.
